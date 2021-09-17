@@ -1,7 +1,7 @@
 # Erin_Portfolio
 Data Science Portfolio
 
-# Project 1: Mushroom Classifier
+# [Project 1: Mushroom Classifier]
 I will be investigating the K Nearest Neighbors and PCA algorithms using sklearn's KNeighborsClassifier and PCA class. I will use a RandomForestClassifier and a Logistic Regression to predict whether or not a mushroom is edible based on the mushroom dataset. The KNN algorithm will be used to fill in missing values in our dataset and the PCA algorithm will be used to reduce the dimensionality of the data. The goal is to evaluate the effect of dimensionality reduction on two common models and to gain experience with the KNN algorithm with respect to imputation. This Notebook is broken down into 7 sections:
 1). Import Data
 - Simply importing .csv containing the mushroom dataset

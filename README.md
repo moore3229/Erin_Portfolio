@@ -29,23 +29,18 @@ Based on the table above, the models perform worse with the reduced dataset, how
 
 # [Project 2: Covid-19 Database: Project Overview](https://github.com/moore3229/Covid-19-Database)
 
-Our goal is to investigate Covid-19 data obtained from AWS in order to better understand the virus's economic and socioeconomic effects. The data given by AWS' "Covid-19 Harmonized Dataset" is quite detailed, and it comes from "The Covid Tracking Project." As of March 7th, 2021, “The Covid Tracking Research” will stop collecting new data, which will have no effect on our project. Researchers, doctors, non-profits, educational institutions, students, and government organizations will all benefit from this database. These are the people that are involved in our project. We plan to build the database specifically to address queries about population density and covid-19 instances.
+Our goal is to investigate Covid-19 data obtained from AWS to better understand the virus's economic and socioeconomic effects. The data gave by AWS' "Covid-19 Harmonized Dataset" is quite detailed, and it comes from "The Covid Tracking Project." As of March 7th, 2021, “The Covid Tracking Research” will stop collecting new data, which will not affect our project. Researchers, doctors, non-profits, educational institutions, students, and government organizations will all benefit from this database. These are the people that are involved in our project. We plan to build the database specifically to address queries about population density and covid-19 instances.
 
-This project will help with research efforts among, public entities, private entities, and startups. The python app we will develop will be simple. We will use our python app to connect to the database, read and display select data, update specific data, and get state, population, and average daily hospitalization by state in descending order of hospitalization rate.
-The intent of our efforts is to attempt to answer the question:
+This project will help with research efforts among, public entities, private entities, and startups. The python app we will develop will be simple. We will use our python app to connect to the database, read and display select data, update specific data, and get state, population, and average daily hospitalization by the state in descending order of hospitalization rate. Our efforts intend to attempt to answer the question:
 
-How does state population density relate to spread of the disease (a measure of the effectiveness of social distancing). Texas has nearly 20 million more residents than Michigan – and yet – Texas has a lower rate of positive cases than Michigan. Why? Is it due to Michigan have a higher number of elderly residents or due to increase property?
+How does state population density relate to the spread of the disease (a measure of the effectiveness of social distancing). Texas has nearly 20 million more residents than Michigan – and yet – Texas has a lower rate of positive cases than Michigan. Why? Is it due to Michigan having a higher number of elderly residents or due to increase poverty?
 
-Conclusion:
-We were able to gain insights, but due to the quality of the data we were not able to answer the specific questions we had as it pertained to the correlation of positive cases, death(s), age, employment, and poverty.
-However – we were able to determine that there is a weak correlation between population density and positive covid cases. We used the following:
+Conclusion: We were able to gain insights, but due to the quality of the data we were not able to answer the specific questions we had as it pertained to the correlation of positive cases, death(s), age, employment, and poverty. However – we were able to determine that there is a weak correlation between population density and positive covid cases. We used the following:
 
-SELECT (AVG(POSITIVE * POP_DENSITY) - AVG(POSITIVE) * AVG(POP_DENSITY)) /
-(SQRT(AVG(POSITIVE * POSITIVE) - AVG(POSITIVE) * AVG(POSITIVE)) * SQRT(AVG(POP_DENSITY * POP_DENSITY) - AVG(POP_DENSITY) * AVG(POP_DENSITY)))
-AS CORRELATION_COEFFICIENT_POPULATION FROM C19_TRK_US_STATES_DAILY D
-INNER JOIN C19_TRK_US_POPULATION_STATES P ON D.STATE = P.STATE WHERE DATE = '2020-03-15 00:00:00';
+SELECT (AVG(POSITIVE * POP_DENSITY) - AVG(POSITIVE) * AVG(POP_DENSITY)) / (SQRT(AVG(POSITIVE * POSITIVE) - AVG(POSITIVE) * AVG(POSITIVE)) * SQRT(AVG(POP_DENSITY * POP_DENSITY) - AVG(POP_DENSITY) * AVG(POP_DENSITY))) AS CORRELATION_COEFFICIENT_POPULATION FROM C19_TRK_US_STATES_DAILY D INNER JOIN C19_TRK_US_POPULATION_STATES P ON D.STATE = P.STATE WHERE DATE = '2020-03-15 00:00:00';
 
-Due to relatively low correlation coefficient – the increase in positive cases may have more to do with low engagement in preventative measures – such as masks, social distancing, and hand washing – than population density.
+Due to the relatively low correlation coefficient – the increase in positive cases may have more to do with low engagement in preventative measures – such as masks, social distancing, and handwashing – than population density.
+
 
 # [Project 3: Polynomial Regression: Project Overview](https://github.com/moore3229/Polynomial-Regression)
 
@@ -78,7 +73,7 @@ Polynomial Regression Problem
 - Built a Bar chart segregating Taxable Income by Gender
 - Built a Pie Chart Showing the Share of Taxable Income by Gender
 - Built a KPI showing the number of individuals.
-- KPI showing the Avg Taxable Income.
+- Built a KPI showing the Avg Taxable Income.
 - Built a filter for Gender Rank, Occupation, and Gender.
 - Built a bar chart showing the number of individuals by occupation.
 - Built a Mekko Chart showing the Taxable income by Gender by Number of Individuals (showing only the top 5,

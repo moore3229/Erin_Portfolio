@@ -52,9 +52,27 @@ Polynomial Regression Problem
 - Infered the true model parameters.
 
 
-# [Project 4: ]
+# [Project 4: Tree-Based Regression Methods ](https://github.com/moore3229/Tree-Based-Regression-Methods)
 
+In this project I explored the GradientBoostingRegressor, RandomforestRegressor, and DecisionTreeRegressor to fit my data. 
 
+- Performed Grid Searches
+  Performed grid searches to elucidate the optimal model hyperparameters and additional rounds to tune-in on the correct values.
+- Visualized Optimal Model Predictions for all three models
+  Visualized each model's predictions for the training data.
+- Computed Generalization Error(s)
+  Computed the generalization Error for all three models. 
+
+Analysis on the different algorithms:
+
+The GradientBoostingRegressor works by combining the predictive power of many machine learning models in an ensemble approach to more accurately predict future data and, in sklearn, the underlying models are decision tree regressors. In gradient boosting, each successive model is tuned to better predict where the previous one(s) failed. It does this by fitting the next regression tree to the negative gradient of the loss function of the previous ensemble. This means each successive tree is trained to minimize the loss function of the next ensemble when it is incorporated. In plain language, this means that each new model is specifically trained to best fit the data points that the previous ensemble predicted the worst. The RandomForestRegressor works similarly to the GradientBoostingRegressor, except it does not optimize each successive model. Instead, some number of models are created independently and their results are amalgamated at the end. The DecisionTreeRegressor works by continuously splitting the input data into subsets. It then analyzes each subset to find which subset best explains the target values and picks that subset (called a node in a tree). The regressor continues splitting the chosen subsets until certain hyperparameters are met, such as maximum depth where the depth is how many times a subset is split and analyzed.
+The RandomForestRegressor performs the best, followed by the DecisionTreeRegressor, and then the GradientBoostingRegressor.
+We expect the GradientBoostingRegressor to perform the best because each successive model is tuned specifically to optimize the next result, whereas the RandomForestRegressor creates many independent models and the DecisionTreeRegressor is just one model. Surprisingly, the RandomForestRegressor outperforms the GradientBoostingRegressor, which also barely underperforms versus the DecisionTreeRegressor. This may be because our grid search optimized the GradientBoostingRegressor to have 1250 successive models but only at a depth of 1, so they may have overfit.
+For the RandomForestRegressor plot, we see many more minute adjustments in the regression line, whereas the GradientBoostingRegressor and the DecisionTreeRegressor produced much blockier curves. This means that the RandomForestRegressor better fit the data and was more sensitive to small deviations in the data. I suspect that this is a result of the larger optimal depth of the RandomForestRegressor (8) compared to that of the GradientBoostingRegressor (1) or the DecisionTreeRegressor (6). I also suspect that if we were to force the GradientBoostingRegressor to have a larger maximum depth that it would perform slightly better.
+
+Model Selection:
+
+Based on the available evidence, I would recommend the RandomForestRegressor with hyperparameters of: max_depth = 8, n_estimators = 900, min_samples_split = 8. I would also recommend that further investigation be done as to why the GradientBoostingRegressor did not perform the best, since in theory it should. Perhaps the type of data we are investiging contributed to this surprising result.
 
 # [Project 5: Data Visualization - Tableau 1: Project Overview](https://github.com/moore3229/Data-Visualization---Tableau-1)
 

@@ -21,7 +21,7 @@ I will be investigating the K Nearest Neighbors and PCA algorithms using sklearn
 
 
 
-Conclusions
+Conclusion:
 Based on the table above, the models perform worse with the reduced dataset, however the drop in performance is greatly outweighed by the drop in dimensions. This means even with a logistic regression, which is a fairly simple model, we can expect decent results with much less training time. However, the RandomForestClassifier takes longer to train on the reduced dataset because there are fewer ways in which the data can be split. Even so, the RandomForestClassifier performs very well - greatly outperforming the logistic regression on the reduced dataset in both accuracy and precision, but losing slightly in recall. This means the RandomForestClassifier is more likely to get the correct prediction and less likely to have false positives (in this case falsely identifying a poisonous mushroom as edible). But, the RandomForestClassifier is less likely to get all edible mushrooms (falsely labels as poisonous). So, overall, the RandomForestClassifier performs better on the reduced data, especially because the logistic regression is much more likely to say a poisonous mushroom is edible. I would also conclude that using the logistic regression on the full dataset is the best option because it did not miss any mushroom labels and had a lower training time compared to the RandomForestClassifier.
 
 
@@ -38,7 +38,7 @@ The intent of our efforts is to attempt to answer the question:
 
 How does state population density relate to spread of the disease (a measure of the effectiveness of social distancing). Texas has nearly 20 million more residents than Michigan – and yet – Texas has a lower rate of positive cases than Michigan. Why? Is it due to Michigan have a higher number of elderly residents or due to increase property?
 
-Conclusion
+Conclusion:
 We were able to gain insights, but due to the quality of the data we were not able to answer the specific questions we had as it pertained to the correlation of positive cases, death(s), age, employment, and poverty.
 However – we were able to determine that there is a weak correlation between population density and positive covid cases. We used the following:
 

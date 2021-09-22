@@ -61,12 +61,30 @@ Polynomial Regression Problem
 
 
 
-# [Project 5: Data Visualization - Tableau: Project Overview]
+# [Project 5: Data Visualization - Tableau 1: Project Overview](https://github.com/moore3229/Data-Visualization---Tableau-1)
+
+- Built a bar chart showing Building and City against Height.
+- Built a bar chart showing Number of floors per City
+- Built a chart showing Floors per Building
+- Built a treemap grouping Architects then Building and then Construction Costs.
+- Built a table showing the building its construction costs,Constructions costs adjusted, floors and height.
+- Built a line chart showing average construction costs per year.
 
 
 
 
-# [Project 6: Data Visualization - Qlik: Project Overview]
+# [Project 6: Data Visualization - Tableau 2: Project Overview](https://github.com/moore3229/Data-Visualization---Tableau-2)
+
+- Built a Bar chart segregating Taxable Income by Gender
+- Built a Pie Chart Showing the Share of Taxable Income by Gender
+- Built a KPI showing the number of individuals.
+- KPI showing the Avg Taxable Income.
+- Built a filter for Gender Rank, Occupation, and Gender.
+- Built a bar chart showing the number of individuals by occupation.
+- Built a Mekko Chart showing the Taxable income by Gender by Number of Individuals (showing only the top 5,
+does not show Others).
+- Built a Tree Map showing the Average Taxable Income by Gender by Occupation (showing only the top 5, does
+not show others).
 
 
 

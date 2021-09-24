@@ -1,4 +1,4 @@
-# Erin_Portfolio
+# Erin_Moore
 Data Science Portfolio
 
 # [Project 1: Mushroom Classifier: Project Overview](https://github.com/moore3229/Mushroom-Classifier)

@@ -102,6 +102,6 @@ does not show Others).
 - Built a Tree Map showing the Average Taxable Income by Gender by Occupation (showing only the top 5, does
 not show others).
 
-
+![](images/Data_Visualization_Tab_2.png)
 
 

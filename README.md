@@ -93,6 +93,19 @@ Based on the available evidence, I would recommend the RandomForestRegressor wit
 
 # [Project 6: Data Visualization - Tableau 2: Project Overview](https://github.com/moore3229/Data-Visualization---Tableau-2)
 
+- Built a timeline showing the Average Price by Month.
+- Built a timeline showing the total volume for all the different dimensions except Average Price, each in its separate graph.
+- Built a bar chart showing the Average Price per Region
+- Built a series of bar charts showing Total volume per region, each in its separate chart.
+- Built a treemap showing the total number of Large Bags per Region
+- Built a small table showing the Average Price per Type of Fruit.
+- Built a small table showing Average Price per Year.
+
+![](images/Data_Visualization_Tab_2.png)
+
+
+# [Project 6: Data Visualization - Qlik 1: Project Overview()
+
 - Built a Bar chart segregating Taxable Income by Gender
 - Built a Pie Chart Showing the Share of Taxable Income by Gender
 - Built a KPI showing the number of individuals.
@@ -103,7 +116,4 @@ Based on the available evidence, I would recommend the RandomForestRegressor wit
 does not show Others).
 - Built a Tree Map showing the Average Taxable Income by Gender by Occupation (showing only the top 5, does
 not show others).
-
-![](images/Data_Visualization_Tab_2.png)
-
 

@@ -51,7 +51,8 @@ Polynomial Regression Problem
 - Recreated the first figure by adding the best fit curve to all subplots.
 - Infered the true model parameters.
 
-![](images/Polynomial_Regression_II_Image2.png)
+![](images/Polynomial_Regression_II_Image1.png)1[](images/Polynomial_Regression_II_image2.png)
+
 
 
 

@@ -54,8 +54,6 @@ Polynomial Regression Problem
 ![](images/Polynomial_Regression_II_Image1.png)![](images/Polynomial_Regression_II_image2.png)
 
 
-
-
 # [Project 4: Tree-Based Regression Methods ](https://github.com/moore3229/Tree-Based-Regression-Methods)
 
 In this project I explored the GradientBoostingRegressor, RandomforestRegressor, and DecisionTreeRegressor to fit my data. 

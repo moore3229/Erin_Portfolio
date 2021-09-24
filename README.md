@@ -86,7 +86,7 @@ Based on the available evidence, I would recommend the RandomForestRegressor wit
 - Built a table showing the building its construction costs,Constructions costs adjusted, floors and height.
 - Built a line chart showing average construction costs per year.
 
-![](/images/Data%20Visualization%201.png)
+![](/Images/Data%20Visualization%201.png)
 
 
 # [Project 6: Data Visualization - Tableau 2: Project Overview](https://github.com/moore3229/Data-Visualization---Tableau-2)

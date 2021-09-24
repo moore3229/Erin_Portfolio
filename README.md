@@ -118,3 +118,12 @@ does not show Others).
 not show others).
 
 ![](images/Data_Visualization_Qlik_Sense_1.png)
+
+
+# [Project 8: Data Visualization - Qlik Sense 2: Project Overview](https://github.com/moore3229/Data_Visualization_Qlik_Sense_2)
+
+
+# [Project 9: Exploratory Data Analysis: Project Overview](https://github.com/moore3229/Exploratory_Data_Analysis)
+
+
+# [Project 10: Clustering: Project Overview](https://github.com/moore3229/Clustering)

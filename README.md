@@ -104,7 +104,7 @@ Based on the available evidence, I would recommend the RandomForestRegressor wit
 ![](images/Data_Visualization_Tab_2.png)
 
 
-# [Project 6: Data Visualization - Qlik 1: Project Overview()
+# [Project 6: Data Visualization - Qlik Sense 1: Project Overview()
 
 - Built a Bar chart segregating Taxable Income by Gender
 - Built a Pie Chart Showing the Share of Taxable Income by Gender
@@ -117,3 +117,4 @@ does not show Others).
 - Built a Tree Map showing the Average Taxable Income by Gender by Occupation (showing only the top 5, does
 not show others).
 
+![](images/Data_Visualization_Qlik_Sense_1.png)

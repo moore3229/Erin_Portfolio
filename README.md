@@ -123,7 +123,7 @@ not show others).
 # [Project 8: Data Visualization - Qlik Sense 2: Project Overview](https://github.com/moore3229/Data_Visualization_Qlik_Sense_2)
 
 - Built a table showing Generation, % of Spending and Category.
-- Built a Pie Chart (yes, I know, but chances are your organization will ask you to do one and we need to show you how to deliver) breaking % of Spending by Category.
+- Built a Pie Chart  breaking % of Spending by Category.
 - Built a Bar Chart showing % of Spending by Category.
 - Built a Pie Chart showing Share of Spending by Generation.
 - Built a Bar Chart Showing % of Spending by Generation.

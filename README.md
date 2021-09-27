@@ -41,6 +41,8 @@ SELECT (AVG(POSITIVE * POP_DENSITY) - AVG(POSITIVE) * AVG(POP_DENSITY)) / (SQRT(
 
 Due to the relatively low correlation coefficient – the increase in positive cases may have more to do with low engagement in preventative measures – such as masks, social distancing, and handwashing – than population density.
 
+![](images/Covid_Schema.png)
+
 
 # [Project 3: Polynomial Regression: Project Overview](https://github.com/moore3229/Polynomial-Regression)
 

@@ -144,6 +144,10 @@ not show others).
 
 # [Project 11: Artificial Neural Network: Project Overview](https://github.com/moore3229/Artificial_Neural_Network)
 
+Used artificial neural network(s) to solve simple regression problem. I will fit a neural network to a 3D sinusoidal data set. Used a Sequential model to be trained very quickly on the supplied data, and manually adjusted hyperparameter values and observed their influence on the model's predictions.
+
+Built an ANN that modeled the data. Trained the model and used it to predict a curve obtain a smooth and less eratic curve. Computed the generalization error on the test set.
+
 - Imported, normalized, and split the data into a training and
 test set
 - Plotted the training data

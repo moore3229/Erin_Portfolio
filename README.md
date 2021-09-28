@@ -140,3 +140,15 @@ not show others).
 
 
 # [Project 10: Clustering: Project Overview](https://github.com/moore3229/Clustering)
+
+
+# [Project 11: Artificial Neural Network: Project Overview](https://github.com/moore3229/Artificial_Neural_Network)
+
+- Imported, normalized, and split the data into a training and
+test set
+- Plotted the training data
+- Built and trained a neural network on the training data
+- Visualized the model’s predictions for the training data via a 3D Sinusoidal
+- Computed the generalization error for the testing data
+
+![](images/Project_11_1.png) ![](images/Project_11_2.png)

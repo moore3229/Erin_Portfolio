@@ -81,6 +81,9 @@ Model Selection:
 
 Based on the available evidence, I would recommend the RandomForestRegressor with hyperparameters of: max_depth = 8, n_estimators = 900, min_samples_split = 8. I would also recommend that further investigation be done as to why the GradientBoostingRegressor did not perform the best, since in theory it should. Perhaps the type of data we are investiging contributed to this surprising result.
 
+![](images/Random_Forrest_Regressor.png) ![](images/DecisionTree_Regressor.png) ![](images/Gradient_Boosting_Regressor.png)
+![](images/Optimal_RandomForest_Regressor.png) ![](images/Optimal_DecisionTree_Regressor.png) ![](images/Optimal_Gradient_Boosting_Regressor.png)
+
 # [Project 5: Data Visualization - Tableau 1: Project Overview](https://github.com/moore3229/Data-Visualization---Tableau-1)
 
 - Built a bar chart showing Building and City against Height.

@@ -159,3 +159,9 @@ test set
 - Computed the generalization error for the testing data
 
 ![](images/Project_11_1.png) ![](images/Project_11_2.png)
+
+# [Project 12: Seattle Airbnb Vs Boston Airbnb: Project Overview](https://github.com/moore3229/Seattle_Airbnb_vs_Boston_Airbnb)
+
+
+
+
